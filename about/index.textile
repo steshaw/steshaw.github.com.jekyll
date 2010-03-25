@@ -11,7 +11,7 @@ h2. Personality Tests
 
 Please understand me! I long time ago I did the "Keirsey Character Sorter":http://keirsey.com/ tests. There are two: a long one and a short one. I was "diagnosed" with "INTJ-Mastermind":http://www.personalitypage.com/INTJ_per.html on both.
 
-* "Keirsey Temperament Sorter Results":kcs.html
-* "Keirsey Temperament Sorter II Results":kcs2.html
+bq. "Keirsey Temperament Sorter Results":kcs.html
+    "Keirsey Temperament Sorter II Results":kcs2.html
 
 A somewhat more recent personality test, run while at ADC (now Intec), came up with "INTP-Architect":http://www.personalitypage.com/INTP_per.html, a very typical profile for a software developer.
