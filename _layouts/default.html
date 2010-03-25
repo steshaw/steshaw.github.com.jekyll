@@ -6,8 +6,11 @@
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <title>{{ page.title }}</title>
-   <meta name="author" content="Jonas Bonér" />
-   <link href="http://feeds.feedburner.com/grubbel" rel="alternate" title="Jonas Bonér" type="application/atom+xml" />
+   <meta name="author" content="Steven Shaw" />
+   <link rel="alternate" type="application/rss+xml" title="Steven Shaw RSS Feed" href="http://steshaw.wordpress.com/feed/" />
+<!--
+   <link href="http://feeds.feedburner.com/grubbel" rel="alternate" title="Steven Shaw" type="application/atom+xml" />
+-->
 
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
@@ -15,10 +18,22 @@
 
 <body>
 
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15461592-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
 <div class="site">
   <div class="title">
-    <a href="/">Jonas Bon&#233;r</a>
+    <a href="/">Steven Shaw</a>
     <a class="extra" href="/">home</a>
+
+{% comment %}
     <div class="widget-search widget">
       <h3 class="widget-header">Search</h3>
       <div class="widget-content">
@@ -33,6 +48,7 @@
         <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en"></script>
       </div>
     </div>
+{% endcomment %}
   </div>
   
   {{ content }}
