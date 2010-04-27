@@ -5,7 +5,7 @@ title: About Me
 
 h2. About me
 
-I'm a software developer, born English but living in beautiful Brisbane Australia for the last 20 years.
+An avid software developer. Born English. Grew up Australian. Dual Citizen. Enjoys living in - the beautiful - Brisbane, Australia.
 
 h2. Personality Tests
 
