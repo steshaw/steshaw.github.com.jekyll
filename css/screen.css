@@ -118,20 +118,40 @@ ul.posts {
 .site .footer {
   font-size: 80%;
   color: #666;
-  border-top: 4px solid #eee;
+  border-width: thick thick thick thin;
+  border-style: solid;
+  border-color:  #eee;
   margin-top: 2em;
   overflow: hidden;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
   
 .site .twitter {
   font-size: 80%;
   color: #666;
-  border-top: 4px solid #eee;
+  border-top: thick solid #eee;
   margin-top: 2em;
   text-align: left;
   overflow: hidden;
 }
-  
+
+.site .notice {
+  font-size: 70%;
+  color: #666;
+  border-top: thin solid #eee;
+  margin-top: 2em;
+  text-align: center;
+  overflow: hidden;
+}
+
+.site .footer .promote {
+  float: right;
+  padding-top: 8em;
+  padding-right: 0.5em;
+}
+
 .site .footer .contact {
   float: left;
   margin-right: 3em;

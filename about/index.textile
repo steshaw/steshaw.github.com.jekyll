@@ -5,7 +5,7 @@ title: About Me
 
 h2. About me
 
-An avid software developer. Born English. Grew up Australian. Dual Citizen. Enjoys living in - the beautiful - Brisbane, Australia.
+Avid software developer. Born English. Grew up Australian. Dual Citizen. Enjoys living in beautiful Brisbane, Australia.
 
 h2. Personality Tests
 
