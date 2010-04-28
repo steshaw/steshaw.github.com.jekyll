@@ -5,7 +5,8 @@ title: About Me
 
 h2. About me
 
-Avid software developer. Born English. Grew up Australian. Dual Citizen. Enjoys living in beautiful Brisbane, Australia.
+Avid software developer. Born English. Grew up Australian. Dual Citizen.
+Enjoy living in beautiful Brisbane, Australia.
 
 h2. Personality Tests
 
@@ -14,4 +15,4 @@ Please understand me! I long time ago I did the "Keirsey Character Sorter":http:
 bq. "Keirsey Temperament Sorter Results":kcs.html
     "Keirsey Temperament Sorter II Results":kcs2.html
 
-A somewhat more recent personality test, run while at ADC (now Intec), came up with "INTP-Architect":http://www.personalitypage.com/INTP_per.html, a very typical profile for a software developer.
+A slightly less ancient personality test, run while at ADC (Intec), came up with "INTP-Architect":http://www.personalitypage.com/INTP_per.html, a very typical profile for a software developer.
