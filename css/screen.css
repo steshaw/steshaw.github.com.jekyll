@@ -151,15 +151,17 @@ ul.posts {
   margin: 0em;
   border-bottom: 1px solid rgb(238, 238, 238);
   padding: 1em;
+  margin-top: 0em;
 }
 
 .site .twitter li a {
   display: block;
-  margin-top: 0.0em;
+  margin-top: 0.5em;
 }
 
 .site .twitter li span a {
   display: inline;
+  margin-top: 1em;
 }
 
 .site .twitter li:hover {
