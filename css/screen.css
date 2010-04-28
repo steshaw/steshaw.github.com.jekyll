@@ -27,11 +27,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  color: #666;
+  border-top: thick solid #eee;
+  margin-top: 1em;
   margin-bottom: 1em;
+  text-align: left;
+  overflow: hidden;
+}
+
+h2 {
+  margin-top: 1em;
+  color: #666;
 }
 
 p {
-  margin: 1em 0;
+  margin-top: 1em;
+  margin-left: 1em;
 }
 
 a {
@@ -80,7 +91,7 @@ ul.posts {
 
 .site {
   font-size: 110%;
-  text-align: justify;
+  text-align: left;
   width: 42em;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
@@ -121,20 +132,42 @@ ul.posts {
   border-width: thick thick thick thin;
   border-style: solid;
   border-color:  #eee;
-  margin-top: 2em;
   overflow: hidden;
   width: 80%;
-  margin-left: auto;
+  margin-top: 2em;
+  margin-left: 1em;
   margin-right: auto;
 }
   
 .site .twitter {
+  line-height: normal;
+  width: 40em;
+  margin-left: 2em;
+  margin-right: auto;
+}
+
+.site .twitter li {
+  display: block;
+  margin: 0em;
+  border-bottom: 1px solid rgb(238, 238, 238);
+  padding: 1em;
+}
+
+.site .twitter li a {
+  display: block;
+  margin-top: 0.0em;
+}
+
+.site .twitter li span a {
+  display: inline;
+}
+
+.site .twitter li:hover {
+  background-color: rgb(247, 247, 247);
+}
+
+.site .twitter {
   font-size: 80%;
-  color: #666;
-  border-top: thick solid #eee;
-  margin-top: 2em;
-  text-align: left;
-  overflow: hidden;
 }
 
 .site .notice {

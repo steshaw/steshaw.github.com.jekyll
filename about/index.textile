@@ -3,12 +3,12 @@ layout: page
 title: About Me
 ---
 
-h2. About me
+h1. About me
 
 Avid software developer. Born English. Grew up Australian. Dual Citizen.
 Enjoy living in beautiful Brisbane, Australia.
 
-h2. Personality Tests
+h2. Understanding me
 
 Please understand me! I long time ago I did the "Keirsey Character Sorter":http://keirsey.com/ tests. There are two: a long one and a short one. I was "diagnosed" with "INTJ-Mastermind":http://www.personalitypage.com/INTJ_per.html on both.
 
