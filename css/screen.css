@@ -152,29 +152,28 @@ ul.posts span {
   font-size: 80%;
   color: #666;
   border-radius: 2.5em;
-/*
-  border-width: thick thick thick thin;
-*/
   border-style: solid;
   border-color:  #eee;
   overflow: hidden;
   width: 80%;
-  margin-top: 2em;
-  margin-left: 1em;
+  margin-top: 3em;
+  margin-left: auto; 
   margin-right: auto;
 }
-  
+
 .site .twitter {
   line-height: normal;
   width: 40em;
-  margin-left: 2em;
+  margin-left: 1em;
   margin-right: auto;
+  margin-right: 0em;
 }
 
 .site .twitter li {
   display: block;
   margin: 0em;
   border-bottom: 1px solid rgb(238, 238, 238);
+  border-radius: 1em;
   padding: 1em;
   margin-top: 0em;
 }
@@ -189,12 +188,24 @@ ul.posts span {
   margin-top: 1em;
 }
 
+.site .twitter li > a,
+.site .twitter li > a:visited {
+  font-family: 'Helvetica Neue', Arial;
+  font-size: 0.2em;
+  color: #999;
+  text-decoration: none;
+}
+
+.site .twitter li > a:hover {
+  text-decoration: underline;
+}
+
 .site .twitter li:hover {
   background-color: rgb(247, 247, 247);
 }
 
-.site .twitter {
-  font-size: 80%;
+.site .twitter .tweets {
+  font-size: 1em;
 }
 
 .site .notice {

@@ -22,12 +22,23 @@ title: Steven Shaw
 </div>
 {% endcomment %}
 
-<h1>Tweets</h1>
+<h1>Latest tweets</h1>
 <div class="twitter">
-<!--  <div id="twitter_div"> -->
+  <div class="tweets">
     <ul id="twitter_update_list"></ul>
-    <a href="http://twitter.com/steshaw" id="twitter-link" style="display:block;text-align:right;">follow me on Twitter</a>
-<!--  </div> -->
+  </div>
+  <a id="twitter-link" href="http://twitter.com/steshaw" style="display:block; text-align:right;">
+    follow me on Twitter
+  </a>
 </div>
+
+<script type"text/javascript">
+  $(function() {
+    $('.site .twitter li')
+      .mouseenter(function(){$(this).css('backgroundColor', '#EEE');})
+      .mouseleave(function(){$(this).css('backgroundColor', '#FFF');});
+  });
+</script>
+
 <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
 <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/steshaw.json?callback=twitterCallback2&amp;count=5"></script>
