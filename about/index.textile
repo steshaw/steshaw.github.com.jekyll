@@ -1,18 +1,19 @@
 --- 
 layout: page
-title: About Me
+title: About - Steven Shaw
 ---
 
-h1. About me
+h1. About
 
-Avid software developer. Born English. Grew up Australian. Dual Citizen.
-Enjoy living in beautiful Brisbane, Australia.
+Born English. Grew up Australian. Dual citizen. Currently enjoy living in beautiful Brisbane, Australia.
+
+Avid computer programmer and app developer. Interested in the design and implementation of programming languages, computer games, operating systems, distributed systems and database management systems.
 
 h2. Understanding me
 
-Please understand me! I long time ago I did the "Keirsey Character Sorter":http://keirsey.com/ tests. There are two: a long one and a short one. I was "diagnosed" with "INTJ-Mastermind":http://www.personalitypage.com/INTJ_per.html on both.
+Many years ago, I did the "Keirsey Temperament Sorter":http://keirsey.com/. There are two: a short one and a longer one. I was "diagnosed" as "INTJ (Mastermind/Scientist)":http://www.personalitypage.com/INTJ.html on both.
 
-bq. "Keirsey Temperament Sorter Results":kcs.html
-    "Keirsey Temperament Sorter II Results":kcs2.html
+"Keirsey Temperament Sorter Results":kcs.html
+"Keirsey Temperament Sorter II Results":kcs2.html
 
-A slightly less ancient personality test, run while at ADC (Intec), came up with "INTP-Architect":http://www.personalitypage.com/INTP_per.html, a very typical profile for a software developer.
+Subsequently, I took a standard Myer-Briggs personality test which came up with "INTP (Architect/Thinker)":http://www.personalitypage.com/INTP.html. This is a more typical profile for a computer programmer.
