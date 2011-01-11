@@ -208,15 +208,15 @@ ul.posts span {
 
 .site .footer .promote {
   float: right;
-  padding-top: 10em;
-  padding-right: 0.5em;
+  padding-top: 7em;
+  padding-right: 1em;
 }
 
 .site .footer .contact {
   float: left;
-  margin-right: 3em;
+  margin-right: 2em;
 }
-    
+
 .site .footer .contact a {
   color: #8085C1;
 }
