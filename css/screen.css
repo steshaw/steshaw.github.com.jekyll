@@ -187,7 +187,6 @@ ul.posts span {
   line-height: normal;
   width: 40em;
   margin-left: 1em;
-  margin-right: auto;
   margin-right: 0em;
 }
 
@@ -195,7 +194,7 @@ ul.posts span {
   display: block;
   margin: 0em;
   border-radius: 1em;
-  padding: 1em;
+  padding: 0.75em;
   margin-top: 0em;
 }
 
