@@ -159,6 +159,14 @@ ul.posts span {
   margin-top: 3em;
   margin-left: auto; 
   margin-right: auto;
+  line-height: 1.4em;
+}
+
+.site .footer .quote p {
+  line-height: 1.3em;
+  margin-left: 2em;
+  height: auto;
+  float: left;
 }
 
 .site .twitter {
@@ -172,7 +180,6 @@ ul.posts span {
 .site .twitter li {
   display: block;
   margin: 0em;
-  border-bottom: 1px solid rgb(238, 238, 238);
   border-radius: 1em;
   padding: 1em;
   margin-top: 0em;
@@ -188,6 +195,12 @@ ul.posts span {
   margin-top: 1em;
 }
 
+a.follow-me-on-twitter {
+  display: block;
+  text-align: right;
+}
+
+a.follow-me-on-twitter,
 .site .twitter li > a,
 .site .twitter li > a:visited {
   font-family: 'Helvetica Neue', Arial;
@@ -196,6 +209,7 @@ ul.posts span {
   text-decoration: none;
 }
 
+a.follow-me-on-twitter:hover,
 .site .twitter li > a:hover {
   text-decoration: underline;
 }
@@ -234,7 +248,7 @@ ul.posts span {
 
 .site .footer .contact strong {
   display: inline-block;
-  width: 6em;
+  width: 7em;
 }
 
 .site .footer .rss {
