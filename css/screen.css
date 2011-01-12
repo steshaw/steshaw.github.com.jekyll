@@ -22,6 +22,14 @@ body {
   text-align: center;
 }
 
+div.clear {
+  clear: both;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
 h1 {
   font-size: 1.5em;
 }
@@ -159,14 +167,20 @@ ul.posts span {
   margin-top: 3em;
   margin-left: auto; 
   margin-right: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
   line-height: 1.4em;
 }
 
-.site .footer .quote p {
+.site .footer .quote {
   line-height: 1.3em;
-  margin-left: 2em;
-  height: auto;
-  float: left;
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-bottom: 0.5em;
+}
+
+.site .footer .portrait {
+  border-radius: 1em;
 }
 
 .site .twitter {

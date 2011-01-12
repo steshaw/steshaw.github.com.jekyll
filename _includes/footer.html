@@ -5,11 +5,15 @@
       author: "Paul Arden"
     }
     ,{
-      text: "It's Not How Good You Are, It's How Good You Want To Be",
+      text: "It's not how good you are, <em>it's how good you want to be</em>",
       author: "Paul Arden"
     }
     ,{
       text: "When things go wrong it's tempting to shift the blame. Don't.",
+      author: "Paul Arden"
+    }
+    ,{
+      text: "If it’s impossible <em>do it anyway</em>.",
       author: "Paul Arden"
     }
   ];
@@ -20,29 +24,27 @@
     document.write('"');
     document.write(quote.text);
     document.write('"');
-    document.write('<br />');
-    document.write('&mdash; ');
+    document.write('<span class="nowrap">');
+    document.write(' &mdash; ');
     document.write('<em>');
     document.write(quote.author);
     document.write('</em>');
+    document.write('</span>');
   }
   
 </script>
 
   <div class="footer">
     <div class="quote">
-      <p><script type="text/javascript">writeRandomQuote()</script>
-{% comment %}
-        "If you can't solve a problem, it's because you are playing by the rules."<br />
-        – Paul Arden
-{% endcomment %}
-      </p>
+      <script type="text/javascript">writeRandomQuote()</script>
     </div>
+
+    <div class="clear"></div>
 
     <div class="contact">
       <p>
         <a href="http://www.google.com/search?q=%28steshaw+OR+%22Steven+Shaw%22%29+Java+OR+Scala+OR+Ruby+OR+Python+OR+Perl+OR+Shell+OR+%22C+Programming+Language%22+OR+C%2B%2B+OR+%22D+Programming+Language%22+OR+%22Scheme+Programming+Language%22+OR+%22Lisp+Programming+Language%22+OR+%22Common+Lisp%22+OR+%22Dylan+Programming+Language%22+OR+Erlang+OR+Forth+OR+%22J+Programming+Language%22+OR+%22K+Programming+Language%22+OR+Caml+OR+OCaml+OR+%22Objective+Caml%22+OR+%22Oz+Programming+Language%22+OR+%22Mozart+Oz%22+OR+Pascal+OR+%22Component+Pascal%22+OR+Oberon+OR+Modula-2+OR+Modula-3+OR+compilers+OR+parsers+OR+lexers+OR+%22Operating+Systems%22+OR+%22Distributed+Systems%22" title="google me" rel="alternate" type="application/rss+xml">
-          <img width="100" height="100" src="/images/steve-in-barcelona.jpeg" alt="" align="middle"/>
+          <img class="portrait" width="100" height="100" src="/images/steve-in-barcelona.jpeg" alt="" align="middle"/>
         </a>
       </p>
     
@@ -112,5 +114,5 @@
  </div>
 
 <div class="notice">
-  &copy; 1998-2010 Steven Shaw
+  &copy; 1998-2011 Steven Shaw
 </div>
