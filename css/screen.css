@@ -17,7 +17,7 @@ html, body {
 
 body {
   background-color: white;
-  font: 13.34px verdana, helvetica, arial, clean, sans-serif;
+  font: 12pt verdana, helvetica, arial, clean, sans-serif;
   font-size: small;
   text-align: center;
 }
@@ -217,7 +217,7 @@ a.follow-me-on-twitter,
 .site .twitter li > a,
 .site .twitter li > a:visited {
   font-family: 'Helvetica Neue', Arial;
-  font-size: 0.2em;
+  font-size: 9pt;
   color: #999;
   text-decoration: none;
 }
