@@ -28,14 +28,21 @@
 </script>
 
 <div>
-<div style="float: right;">
-  {% include goodreads-bookshelf-widget.html %}
-</div>
+  <div style="float: right;">
+    {% include goodreads-bookshelf-widget.html %}
+  </div>
 
 <div class="site">
 
+
+<div>
   <div>
-    <div class="title" style="float: left; margin-top: 0.3em; ">
+
+    <div style="float: right">
+      {% include top_menu.html %}
+    </div>
+
+    <div class="title">
       <a href="/">Steven Shaw</a>
       {% comment %}
       <a class="extra" href="/">home</a>
@@ -59,18 +66,15 @@
       {% endcomment %}
     </div>
 
-    <div style="float: right">
-      {% include top_menu.html %}
-    </div>
-
   </div>
 
   <div>
-    <div style="clear: left;" />
+    <div style="clear: left;"></div>
 
     {{ content }}
     {% include footer.html %}
   </div>
+</div>
 
 </div>
 </div>
