@@ -132,7 +132,7 @@ ul.posts span {
   background-color: white;
   font-size: 110%;
   text-align: left;
-  width: 45em;
+  width: 40em;
   margin-top: 3em;
   margin-left: auto;
   margin-right: auto;
@@ -175,10 +175,11 @@ ul.posts span {
   border-radius: 2.5em;
   border-style: solid;
   border-color:  #eee;
-  width: 480px;
   margin-top: 3em;
+/*
   margin-left: auto; 
   margin-right: auto;
+*/
   padding: 0;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -188,8 +189,8 @@ ul.posts span {
 .site .footer .quote {
   line-height: 1.3em;
   width: 25em;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 3em; /* auto */
+  margin-right: 3em; /* auto */
   margin-bottom: 1em;
 }
 
@@ -260,9 +261,7 @@ a.follow-me-on-twitter:hover,
 
 .site .footer .promote {
   float: right;
-  margin-top: 8.5em;
-  margin-right: 1em;
-  margin-bottom: 1em;
+  margin: 1em;
 }
 
 .site .footer .photo {
@@ -272,6 +271,7 @@ a.follow-me-on-twitter:hover,
 }
 
 .site .footer .contact {
+  width: 20em;
   display: inline-block;
 }
 
