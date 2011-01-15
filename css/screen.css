@@ -24,6 +24,8 @@ body {
   font: 12pt verdana, helvetica, arial, clean, sans-serif;
   font-size: small;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 div.clear {
@@ -123,11 +125,17 @@ ul.posts span {
 /*****************************************************************************/
 
 .site {
+  background-color: white;
   font-size: 110%;
   text-align: left;
-  width: 42em;
+  width: 45em;
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+/*
   margin: 3em auto 2em auto;
   line-height: 1.5em;
+*/
 }
 
 .title {
@@ -166,24 +174,32 @@ ul.posts span {
   border-radius: 2.5em;
   border-style: solid;
   border-color:  #eee;
-  overflow: hidden;
-  width: 80%;
+  width: 42em;
+/*
+  width: 45em;
+  height: auto;
+*/
   margin-top: 3em;
   margin-left: auto; 
   margin-right: auto;
+  padding: 0;
   padding-top: 1em;
   padding-bottom: 1em;
   line-height: 1.4em;
+/* XXX
+*/
+  overflow: hidden;
 }
 
 .site .footer .quote {
   line-height: 1.3em;
-  margin-left: 4em;
-  margin-right: 4em;
-  margin-bottom: 0.5em;
+  width: 25em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
 }
 
-.site .footer .portrait {
+.site .footer .photo img {
   border-radius: 1em;
 }
 
@@ -251,13 +267,23 @@ a.follow-me-on-twitter:hover,
 
 .site .footer .promote {
   float: right;
-  padding-top: 7em;
-  padding-right: 1em;
+  margin-top: 8.5em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.site .footer .photo {
+  float: left;
+  margin-left: 1em;
+  margin-right: 2em;
 }
 
 .site .footer .contact {
-  float: left;
+  display: inline-block;
+/*
+  float: right;
   margin-right: 2em;
+*/
 }
 
 .site .footer .contact a {
@@ -292,7 +318,7 @@ a.follow-me-on-twitter:hover,
 /* standard */
 
 #post pre {
-  overflow:auto;
+  overflow: auto;
   font-size: 80%;
   background-color: #eef;
   padding: 1em 1em;

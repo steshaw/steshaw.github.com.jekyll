@@ -9,59 +9,70 @@
    <meta name="author" content="Steven Shaw"/>
    <link rel="alternate" type="application/rss+xml" title="Steven Shaw RSS Feed" href="http://steshaw.wordpress.com/feed/"/>
    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection"/>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 </head>
 
 <body>
 
 <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
+
 <script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-15461592-1");
-pageTracker._trackPageview();
-} catch(err) {}</script>
+  try {
+    var pageTracker = _gat._getTracker("UA-15461592-1");
+    pageTracker._trackPageview();
+  } catch(err) {
+  }
+</script>
+
+<div>
+<div style="float: right;">
+  {% include goodreads-bookshelf-widget.html %}
+</div>
 
 <div class="site">
 
-<div>
-  <div class="title" style="float: left; margin-top: 0.3em; ">
-    <a href="/">Steven Shaw</a>
-<!--
-    <a class="extra" href="/">home</a>
--->
+  <div>
+    <div class="title" style="float: left; margin-top: 0.3em; ">
+      <a href="/">Steven Shaw</a>
+      {% comment %}
+      <a class="extra" href="/">home</a>
+      {% endcomment %}
 
-{% comment %}
-    <div class="widget-search widget">
-      <h3 class="widget-header">Search</h3>
-      <div class="widget-content">
-        <form action="http://www.google.com/cse" id="cse-search-box">
-          <div>
-            <input type="hidden" name="cx" value="017431474989948756214:5tfhyaai8lg" />
-            <input type="hidden" name="ie" value="UTF-8" />
-            <input type="text" name="q" size="31" />
-            <input type="submit" name="sa" value="Search" />
-          </div>
-        </form>
-        <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en"></script>
+      {% comment %}
+      <div class="widget-search widget">
+        <h3 class="widget-header">Search</h3>
+        <div class="widget-content">
+          <form action="http://www.google.com/cse" id="cse-search-box">
+            <div>
+              <input type="hidden" name="cx" value="017431474989948756214:5tfhyaai8lg" />
+              <input type="hidden" name="ie" value="UTF-8" />
+              <input type="text" name="q" size="31" />
+              <input type="submit" name="sa" value="Search" />
+            </div>
+          </form>
+          <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+        </div>
       </div>
+      {% endcomment %}
     </div>
-{% endcomment %}
+
+    <div style="float: right">
+      {% include top_menu.html %}
+    </div>
+
   </div>
 
-  <div style="float: right">
-    {% include top_menu.html %}
+  <div>
+    <div style="clear: left;" />
+
+    {{ content }}
+    {% include footer.html %}
   </div>
+
 </div>
-
-  <div class="clear" />
-  
-  {{ content }}
-  
-  {% include footer.html %}
-
 </div>
 
 {% include scripts.html %}
