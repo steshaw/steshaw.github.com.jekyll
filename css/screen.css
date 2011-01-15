@@ -223,12 +223,13 @@ ul.posts span {
   margin-top: 1em;
 }
 
-a.follow-me-on-twitter {
+a.more-tweets {
   display: block;
   text-align: right;
+  font-size: small;
 }
 
-a.follow-me-on-twitter,
+a.more-tweets,
 .site .twitter li > a,
 .site .twitter li > a:visited {
   font-family: 'Helvetica Neue', Arial;
@@ -237,7 +238,7 @@ a.follow-me-on-twitter,
   text-decoration: none;
 }
 
-a.follow-me-on-twitter:hover,
+a.more-tweets:hover,
 .site .twitter li > a:hover {
   text-decoration: underline;
 }
@@ -259,11 +260,6 @@ a.follow-me-on-twitter:hover,
   overflow: hidden;
 }
 
-.site .footer .promote {
-  float: right;
-  margin: 1em;
-}
-
 .site .footer .photo {
   float: left;
   margin-left: 1em;
@@ -271,8 +267,10 @@ a.follow-me-on-twitter:hover,
 }
 
 .site .footer .contact {
+/*
   width: 20em;
   display: inline-block;
+*/
 }
 
 .site .footer .contact a {
@@ -284,13 +282,29 @@ a.follow-me-on-twitter:hover,
   width: 7em;
 }
 
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
+.site .footer .right {
   float: right;
 }
 
+.site .footer .rss {
+  display: none;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
 .site .footer .rss img {
+  border: 0;
+}
+
+.site .footer .promote-idea {
+  float: right;
+  margin-top: 100%;
+  margin-right: 1em;
+  padding: 0;
+}
+
+.site .footer .promote-idea img {
   border: 0;
 }
 
