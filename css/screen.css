@@ -11,6 +11,10 @@
   padding: 0;
 }
 
+blockquote {
+  margin-left: 1.5em;
+}
+
 html, body {
   height: 100%;
 }
@@ -132,16 +136,9 @@ ul.posts span {
   margin-top: 3em;
   margin-left: auto;
   margin-right: auto;
-/*
-  margin: 3em auto 2em auto;
-  line-height: 1.5em;
-*/
 }
 
 .title {
-/*
-  float: left;
-*/
   margin-top: 0.3em;
   color: #a00;
   font-size: 2em;
@@ -179,11 +176,6 @@ ul.posts span {
   border-style: solid;
   border-color:  #eee;
   width: 480px;
-/*
-  width: 42em;
-  width: 45em;
-  height: auto;
-*/
   margin-top: 3em;
   margin-left: auto; 
   margin-right: auto;
@@ -191,9 +183,6 @@ ul.posts span {
   padding-top: 1em;
   padding-bottom: 1em;
   line-height: 1.4em;
-/* XXX
-*/
-  overflow: hidden;
 }
 
 .site .footer .quote {
@@ -210,11 +199,8 @@ ul.posts span {
 
 .site .twitter {
   line-height: normal;
-/*
-  width: 30em;
-*/
   margin-left: 1em;
-  margin-right: 0em;
+  margin-right: 1em;
 }
 
 .site .twitter li {

@@ -22,7 +22,7 @@ layout: nil
       <changefreq>weekly</changefreq>
    </url>
    <url>
-      <loc>http://steshaw.github.com/about/index.textile</loc>
+      <loc>http://steshaw.github.com/about/index.md</loc>
       <changefreq>weekly</changefreq>
    </url>
 <!--
