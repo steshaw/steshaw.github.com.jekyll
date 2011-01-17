@@ -194,10 +194,6 @@ ul.posts span {
   margin-bottom: 1em;
 }
 
-.site .footer .photo img {
-  border-radius: 1em;
-}
-
 .site .twitter {
   line-height: normal;
   margin-left: 1em;
@@ -266,10 +262,14 @@ a.more-tweets:hover,
   margin-right: 2em;
 }
 
+.site .footer .photo img {
+  border-radius: 1em;
+}
+
 .site .footer .contact {
+  display: inline-block;
 /*
   width: 20em;
-  display: inline-block;
 */
 }
 

@@ -14,11 +14,6 @@
 
 <body>
 
-<div style="position: absolute; top: 20%; left: 0; border: 0; z-index: -100;">
-  {% include goodreads-challenge-widget.html %}
-</div>
- 
-
 <script type="text/javascript">
   var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
   document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -33,7 +28,8 @@
 </script>
 
 <div>
-  <div style="float: right;">
+  <div style="float: right; margin-right: 5px; margin-top: 8em; ">
+    {% include goodreads-challenge-widget.html %}
     {% include goodreads-bookshelf-widget.html %}
   </div>
 
