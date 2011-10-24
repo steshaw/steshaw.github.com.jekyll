@@ -33,50 +33,47 @@
     {% include goodreads-bookshelf-widget.html %}
   </div>
 
-<div class="site">
-
-<div>
-  <div>
-
-    <div style="float: right">
-      {% include top_menu.html %}
-    </div>
-
-    <div class="title">
-      <a href="/">Steven Shaw</a>
-      {% comment %}
-      <a class="extra" href="/">home</a>
-      {% endcomment %}
-
-      {% comment %}
-      <div class="widget-search widget">
-        <h3 class="widget-header">Search</h3>
-        <div class="widget-content">
-          <form action="http://www.google.com/cse" id="cse-search-box">
-            <div>
-              <input type="hidden" name="cx" value="017431474989948756214:5tfhyaai8lg" />
-              <input type="hidden" name="ie" value="UTF-8" />
-              <input type="text" name="q" size="31" />
-              <input type="submit" name="sa" value="Search" />
-            </div>
-          </form>
-          <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+  <div id="content" class="site">
+    <div>
+      <div>
+        <div style="float: right">
+          {% include top_menu.html %}
         </div>
+
+        <div class="title">
+          <a href="/">Steven Shaw</a>
+          {% comment %}
+          <a class="extra" href="/">home</a>
+          {% endcomment %}
+
+          {% comment %}
+          <div class="widget-search widget">
+            <h3 class="widget-header">Search</h3>
+            <div class="widget-content">
+              <form action="http://www.google.com/cse" id="cse-search-box">
+                <div>
+                  <input type="hidden" name="cx" value="017431474989948756214:5tfhyaai8lg" />
+                  <input type="hidden" name="ie" value="UTF-8" />
+                  <input type="text" name="q" size="31" />
+                  <input type="submit" name="sa" value="Search" />
+                </div>
+              </form>
+              <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+            </div>
+          </div>
+          {% endcomment %}
+        </div>
+
       </div>
-      {% endcomment %}
+
+      <div>
+        <div style="clear: left;"></div>
+
+        {{ content }}
+        {% include footer.html %}
+      </div>
     </div>
-
   </div>
-
-  <div>
-    <div style="clear: left;"></div>
-
-    {{ content }}
-    {% include footer.html %}
-  </div>
-</div>
-
-</div>
 </div>
 
 {% include scripts.html %}

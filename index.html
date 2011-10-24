@@ -32,7 +32,7 @@ title: Steven Shaw
   <a class="more-tweets" href="http://twitter.com/steshaw">more tweets</a>
 </div>
 
-<script type"text/javascript">
+<script type="text/javascript">
   $(function() {
     $('.site .twitter li')
       .mouseenter(function(){$(this).css('backgroundColor', '#EEE');})
@@ -49,6 +49,7 @@ title: Steven Shaw
 <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
 
 <script type="text/javascript">
+// <![CDATA[
   var alltweets = undefined;
   function onTimeline(tweets) {
     alltweets = tweets;
@@ -68,6 +69,7 @@ title: Steven Shaw
     document.getElementById('twitter_update_list').innerHTML = statusHTML.join('');
     $('#twitter_update_list').show('slow');
   }
+// ]]>
 </script>
 
 {% comment %}
